@@ -1,0 +1,44 @@
+[
+    {
+        "nombre": "fulano",
+        "apellido": "de tutano",
+        "email": "fulano@gmail.com",
+        "cel": "92292929",
+        "date": "05/08/1974",
+        "tipoContact": "Cliente",
+        "Origen": "Origen 1",
+        "comentarios": [
+            {
+                "body": "Llamar para actualizar datos"
+            },
+            {
+                "body": "nuevo comentario"
+            }
+        ],
+        "task": [
+            {
+                "body": "agregando tarea1"
+            },
+            {
+                "body": "agregando tarea2"
+            }
+        ]
+    },
+    {
+        "nombre": "fulano",
+        "apellido": "de tutano",
+        "email": "fulano@gmail.com",
+        "cel": "92292929",
+        "date": "05/08/1974",
+        "tipoContact": "Cliente",
+        "Origen": "Origen 1",
+        "comentarios": [
+            {
+                "body": "Llamar para actualizar datos"
+            },
+            {
+                "body": "Terminar code"
+            }
+        ]
+    }
+]
