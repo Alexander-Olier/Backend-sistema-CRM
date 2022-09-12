@@ -1,1 +1,30 @@
-[{"nombre":"user1","apellido":"user1","mail":"user@gmail.com","cel":"300000000000000000","fecha":"2022-09-09","direccion":"bosque sector 54","contact":"Empeado","origen":"Origen1"}]
+[
+    {
+        "nombre": "user",
+        "apellido": "amigo",
+        "mail": "amigo@mail",
+        "cel": "100001010",
+        "fecha": "2022-09-08",
+        "direccion": "bosque ejecutivo",
+        "contact": "Cliente",
+        "origen": "Origen2",
+        "comentarios": [
+            {
+                "body": "agregando comentario1"
+            },
+            {
+                "body": "agregando comentario2"
+            }
+        ]
+    },
+    {
+        "nombre": "buscar",
+        "apellido": "buscar",
+        "mail": "buscar@gmail.com",
+        "cel": "311999999",
+        "fecha": "2022-09-20",
+        "direccion": "bosque ejecutivo",
+        "contact": "Empeado",
+        "origen": "Origen1"
+    }
+]

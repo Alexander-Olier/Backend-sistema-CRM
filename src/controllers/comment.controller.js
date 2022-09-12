@@ -27,7 +27,11 @@ CommentCtrls.SaveComment = async (req, res) => {
   });
 };
 CommentCtrls.DeleteComment = (req, res) => {
-  delete data[req.params.iduser].comentarios[req.params.id];
+  //se borra por el index del Objeto Json
+  const index = parseInt(req.params.id, 10) + 1;
+  const idUser = parseInt(req.params.iduser, 10);
+  console.log(index + " " + req.params.id);
+  data[idUser].comentarios.splice(req.params.id, index);
   const fileData = JSON.stringify(data);
   fs.writeFile(dataDirection, fileData, function (err) {
     if (err) {
